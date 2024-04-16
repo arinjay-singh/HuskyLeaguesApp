@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 710,
+          "bottomRow": 540,
           "containerStyle": "none",
           "snapRows": 70,
           "parentRowSpace": 1,
@@ -25,7 +25,32 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page2_Select_public_users1",
+              "name": "Select_public_users1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'id'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page2_Total_record_public_users1",
+              "name": "Total_record_public_users1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page2",
         "deleted": false,
