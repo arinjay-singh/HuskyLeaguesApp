@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 530,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -26,7 +26,35 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_Find_movies1",
+              "name": "Find_movies1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
+                "Table1.pageSize",
+                "Table1.pageOffset",
+                "{ homepage: {$regex: Table1.searchText, '$options' : 'i'} }"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page1_Total_record_movies1",
+              "name": "Total_record_movies1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "{ homepage: {$regex: Table1.searchText} }"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
