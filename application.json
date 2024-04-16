@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
