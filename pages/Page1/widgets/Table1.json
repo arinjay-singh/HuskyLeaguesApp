@@ -202,7 +202,7 @@
         },
         "genres": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genres\"]))}}",
-            "isEditable": true,
+            "isEditable": false,
             "notation": "standard",
             "alias": "genres",
             "enableSort": true,
@@ -222,7 +222,7 @@
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
-            "isCellEditable": true,
+            "isCellEditable": false,
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
