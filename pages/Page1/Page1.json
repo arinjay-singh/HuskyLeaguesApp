@@ -29,6 +29,29 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Page1_Select_public_users1",
+              "name": "Select_public_users1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table2.pageSize",
+                "Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table2.sortOrder.column || 'id'",
+                "Table2.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Total_record_public_users1",
+              "name": "Total_record_public_users1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Page1_Find_movies1",
               "name": "Find_movies1",
               "confirmBeforeExecute": false,
