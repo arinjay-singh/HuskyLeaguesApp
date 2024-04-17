@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_All_Team_Members",
+    "name": "GetTeams",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/tm/team_members"
+        "url": "web:4000/t/teams"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home Page",
+    "pageId": "Fan Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +39,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -49,9 +49,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T03:48:18Z"
+    "createdAt": "2024-04-17T18:19:16Z"
   },
-  "id": "Home Page_Get_All_Team_Members",
+  "id": "Fan Home Page_GetTeams",
   "deleted": false,
-  "gitSyncId": "661f3378c396d46fc5595cc0_661f4682c396d46fc5595ce4"
+  "gitSyncId": "661f3378c396d46fc5595cc0_662012a4e1fe8472c908c681"
 }
