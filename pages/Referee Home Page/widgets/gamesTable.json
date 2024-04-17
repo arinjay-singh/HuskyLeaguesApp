@@ -62,7 +62,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713378878783,
+    "columnUpdatedAt": 1713379441470,
     "primaryColumnId": "gameID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
