@@ -1,8 +1,28 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "Referee Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Team Member Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Admin Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Sponsor Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Fan Home Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,

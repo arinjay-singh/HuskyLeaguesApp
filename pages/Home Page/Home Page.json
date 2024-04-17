@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Home Page",
+    "slug": "home-page",
     "layouts": [
       {
         "viewMode": false,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Get_All_Team_Members",
+              "id": "Home Page_Get_All_Team_Members",
               "name": "Get_All_Team_Members",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -37,7 +37,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_Get_all_sports",
+              "id": "Home Page_Get_all_sports",
               "name": "Get_all_sports",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,14 +48,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Home Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "661f3378c396d46fc5595cc0_661f3378c396d46fc5595cc2"
