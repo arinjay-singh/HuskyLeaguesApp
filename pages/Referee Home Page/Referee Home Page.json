@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 1070,
           "containerStyle": "none",
           "snapRows": 121,
           "parentRowSpace": 1,
@@ -28,11 +28,66 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Referee Home Page_GET_Games",
+              "name": "GET_Games",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Referee Home Page_GET_All_Referees",
               "name": "GET_All_Referees",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Referee Home Page_GET_Game",
+              "name": "GET_Game",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RefHomePage_RefGames.selectedRow.gameID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Referee Home Page_GET_Refs_Game",
+              "name": "GET_Refs_Game",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RefHomePage_RefGames.selectedRow.gameID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Referee Home Page_GET_Ref",
+              "name": "GET_Ref",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "RefHomePage_SelectRef.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Referee Home Page_POST_Ref__Sports",
+              "name": "POST_Ref__Sports",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "New_Sport_Sports.selectedOptionValue",
+                "RefHomePage_SelectRef.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
