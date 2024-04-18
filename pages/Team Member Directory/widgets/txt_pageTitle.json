@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Personnel Directory",
+    "text": "Team Member Directory",
     "key": "ph5glqkph7",
     "isDeprecated": false,
     "rightColumn": 44,

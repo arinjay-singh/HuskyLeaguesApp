@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Personnel Directory",
+    "pageId": "Team Member Directory",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -67,7 +67,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T00:23:43Z"
   },
-  "id": "Personnel Directory_EditTeamMemberInfo",
+  "id": "Team Member Directory_EditTeamMemberInfo",
   "deleted": false,
   "gitSyncId": "661f3378c396d46fc5595cc0_6620680fe1fe8472c908c6a1"
 }
