@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Personnel Directory",
-    "slug": "personnel-directory",
+    "name": "Team Member Directory",
+    "slug": "team-member-directory",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Personnel Directory_GetTeamMembers",
+              "id": "Team Member Directory_GetTeamMembers",
               "name": "GetTeamMembers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Personnel Directory",
+        "id": "Team Member Directory",
         "deleted": false,
         "policies": [],
         "userPermissions": []

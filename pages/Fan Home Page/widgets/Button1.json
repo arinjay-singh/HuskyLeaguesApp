@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 53,
     "widgetName": "Button1",
-    "onClick": "{{FollowTeamMember.run().catch(() => {\n  showAlert('Already Following ' + SelectedTeamMember.selectedOptionLabel, 'info');\n});\nGetFollowingForFan.run();}}",
+    "onClick": "{{FollowTeamMember.run().then(() => {\n  showAlert('Followed ' + SelectedTeamMember.selectedOptionLabel, '');\n}).catch(() => {\n  showAlert('Already Following ' + SelectedTeamMember.selectedOptionLabel, 'info');\n});\nGetFollowingForFan.run();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
