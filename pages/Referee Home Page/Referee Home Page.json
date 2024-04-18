@@ -67,29 +67,6 @@
               ],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Referee Home Page_GET_Ref",
-              "name": "GET_Ref",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "RefHomePage_SelectRef.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Referee Home Page_POST_Ref__Sports",
-              "name": "POST_Ref__Sports",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "New_Sport_Sports.selectedOptionValue",
-                "RefHomePage_SelectRef.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
