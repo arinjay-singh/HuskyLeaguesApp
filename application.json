@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Personnel Directory",
+      "isDefault": false
+    },
+    {
       "id": "Fan Home Page",
       "isDefault": false
     },
