@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "id": "Team Member Directory",
+      "isDefault": false
+    },
+    {
+      "id": "Fan Home Page",
+      "isDefault": false
+    },
+    {
       "id": "Home Page",
       "isDefault": true
     },
@@ -21,7 +29,7 @@
       "isDefault": false
     },
     {
-      "id": "Fan Home Page",
+      "id": "Sponsors Directory",
       "isDefault": false
     },
     {
@@ -37,7 +45,11 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FFEFDB",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
