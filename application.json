@@ -27,6 +27,10 @@
     {
       "id": "Sponsor Home Page",
       "isDefault": false
+    },
+    {
+      "id": "Sponsors Directory",
+      "isDefault": false
     }
   ],
   "viewMode": false,
