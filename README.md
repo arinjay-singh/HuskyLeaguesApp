@@ -5,7 +5,7 @@ The "Home Page" is the first thing the user will see, and it will help the user 
 
 To view and interact this application, a clone of the following repository must be made. 
 
-![](https://github.com/AShyamkumar19/CS3200-husky-leagues)
+https://github.com/AShyamkumar19/CS3200-husky-leagues
 
 Once a local version of this repository is created, the user must build and run the associated three docker containers for the database, web application, and appsmith. To open the app, simply visit localhost:8080 and the workspace containing HuskyLeaguesApp will appear. Alternatively, click the "edit application" link below.
 
