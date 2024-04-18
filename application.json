@@ -23,6 +23,14 @@
     {
       "id": "Fan Home Page",
       "isDefault": false
+    },
+    {
+      "id": "New Referee Page",
+      "isDefault": false
+    },
+    {
+      "id": "Referee Directory",
+      "isDefault": false
     }
   ],
   "viewMode": false,
