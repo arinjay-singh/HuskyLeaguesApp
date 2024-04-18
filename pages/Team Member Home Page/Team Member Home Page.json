@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1220,
+          "bottomRow": 1880,
           "containerStyle": "none",
           "snapRows": 121,
           "parentRowSpace": 1,
@@ -25,7 +25,62 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Team Member Home Page_get_games",
+              "name": "get_games",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Team Member Home Page_Get_sports",
+              "name": "Get_sports",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Team Member Home Page_Get_Members_From_Team",
+              "name": "Get_Members_From_Team",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select_Sport.selectedOptionValue",
+                "SelectTeam.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Team Member Home Page_Get_teams_in_sport",
+              "name": "Get_teams_in_sport",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select_Sport.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Team Member Home Page_get_games_for_team",
+              "name": "get_games_for_team",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select_Sport.selectedOptionValue",
+                "SelectTeam.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Team Member Home Page",
