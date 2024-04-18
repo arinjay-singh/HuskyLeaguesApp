@@ -57,7 +57,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713404983401,
+    "columnUpdatedAt": 1713409017969,
     "originalBottomRow": 41,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -65,9 +65,9 @@
     "widgetName": "All_Sponsors",
     "defaultPageSize": 0,
     "columnOrder": [
-        "email",
+        "sponsorID",
         "name",
-        "sponsorID"
+        "email"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
