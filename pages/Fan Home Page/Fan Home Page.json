@@ -13,19 +13,66 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1220,
+          "bottomRow": 710,
           "containerStyle": "none",
-          "snapRows": 121,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1230,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Fan Home Page_GetAllFans",
+              "name": "GetAllFans",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Fan Home Page_GetSports",
+              "name": "GetSports",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Fan Home Page_GetTeamMembers",
+              "name": "GetTeamMembers",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Fan Home Page_GetTeams",
+              "name": "GetTeams",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Fan Home Page_GetFollowingForFan",
+              "name": "GetFollowingForFan",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "SelectedFan.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Fan Home Page",
@@ -39,5 +86,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661f47cd224be278dacc0494_661ff4a8115b65389098ded5"
+  "gitSyncId": "661f3378c396d46fc5595cc0_661ffe37c396d46fc5595cf9"
 }

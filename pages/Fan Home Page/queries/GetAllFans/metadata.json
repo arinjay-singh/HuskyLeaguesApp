@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_all_sports",
+    "name": "GetAllFans",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/s/sports"
+        "url": "web:4000/f/fans"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home Page",
+    "pageId": "Fan Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -49,9 +49,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T04:02:53Z"
+    "createdAt": "2024-04-17T17:19:39Z"
   },
-  "id": "Home Page_Get_all_sports",
+  "id": "Fan Home Page_GetAllFans",
   "deleted": false,
-  "gitSyncId": "661f48083dec2648f1429890_661f49ed3dec2648f1429896"
+  "gitSyncId": "661f3378c396d46fc5595cc0_662004abe1fe8472c908c670"
 }
